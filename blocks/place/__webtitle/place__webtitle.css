@@ -1,0 +1,14 @@
+.place__webtitle {
+    margin: 0 0 8px 0;
+    align-self: end;
+  }
+  @media (min-width: 426px) and (max-width: 768px) {
+    .place__webtitle {
+      margin: 0 0 0 0;
+    }
+  }
+  @media (max-width: 425px) {
+    .place__webtitle {
+      display: none;
+    }
+  }
